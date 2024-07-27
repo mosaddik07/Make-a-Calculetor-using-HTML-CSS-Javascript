@@ -1,0 +1,12 @@
+{
+    "description": "Describe the use of this subdomain",
+    "repo": "https://github.com/mosaddik07/Calculetor-Project.git",
+    "owner": {
+        "username": "<mosaddik07>",
+        "email": "<mosaddek.b1307@gmail.com>",
+        "twitter": "<https://x.com/mosaddik07>"
+    },
+    "record": {
+        "CNAME": "mosaddik07.github.io"
+    }
+}
