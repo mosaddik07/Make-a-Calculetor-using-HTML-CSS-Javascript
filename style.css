@@ -1,0 +1,68 @@
+/* style.css */
+
+/* Overall styling for the calculator container */
+#allDisplay {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Styling for the display input field */
+#display {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the numeric buttons */
+#inputStyle input[type="button"] {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+#inputStyle input[type="button"]:hover {
+  background-color: #d0d0d0;
+}
+
+/* Styling for the equals button */
+#inputStyle input[type="button"][value="="] {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+/* Clear button style */
+#inputStyle input[type="button"][value="C"] {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* Operator buttons style */
+#inputStyle input[type="button"][value="+"],
+#inputStyle input[type="button"][value="-"],
+#inputStyle input[type="button"][value="*"],
+#inputStyle input[type="button"][value="/"] {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+/* Center the buttons */
+#inputStyle {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(239, 216, 216);
+}
